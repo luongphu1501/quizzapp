@@ -1,0 +1,29 @@
+body {
+    background-color: aqua;
+
+}
+
+.container {
+    .header {
+        .navbar {
+
+            opacity: 0.6;
+
+            .nav-link {
+                &.active {
+                    color: #00bfff;
+                }
+            }
+
+        }
+
+    }
+}
+
+video {
+    z-index: -1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
