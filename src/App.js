@@ -5,12 +5,12 @@ import { Link, Outlet } from "react-router-dom";
 function App() {
 
   return (
-    <div className='container'>
+    <div className='app-container'>
       <div className='header'>
         <Header />
       </div>
       <div className='main-content'>
-        <div className='navbar'>
+        <div className='sidebar'>
 
         </div>
         <div className='app-content'>

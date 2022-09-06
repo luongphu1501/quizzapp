@@ -16,13 +16,15 @@ function Header() {
                         <NavLink to="/admin" className='nav-link'>Admin</NavLink>
                     </Nav>
                     <Nav>
-                        <NavDropdown title="Setting" id="basic-nav-dropdown">
+                        <button className='btn signin'>Sign in</button>
+                        <button className='btn login'>Log in</button>
+                        {/* {<NavDropdown title="Setting" id="basic-nav-dropdown">
                             <NavDropdown.Item >Login</NavDropdown.Item>
                             <NavDropdown.Item >
                                 Log Out
                             </NavDropdown.Item>
 
-                        </NavDropdown>
+                        </NavDropdown>} */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

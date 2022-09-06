@@ -11,6 +11,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import User from './components/User/User';
 import Admin from './components/Admin/Admin';
 import HomeComponent from './components/Home/HomeComponent';
+import DashBoard from './components/Admin/Content/DashBoard';
+import ManagerUser from './components/Admin/Content/ManagerUser';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,9 +21,11 @@ root.render(
       <Route path="/" element={<App />} >
         <Route index element={<HomeComponent />} />
         <Route path="/user" element={<User />} />
-        <Route path="/admin" element={<Admin />} />
       </Route >
-
+      <Route path="/admin" element={<Admin />} >
+        <Route index element={<DashBoard />} />
+        <Route path='manage-user' element={<ManagerUser />} />
+      </Route>
     </Routes>
   </BrowserRouter>
 );
