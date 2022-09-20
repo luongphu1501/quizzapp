@@ -1,0 +1,49 @@
+.modal-create-user {
+    .preview-image {
+        height: 150px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ccc;
+    }
+
+    .label-update {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        padding: 5px 10px;
+        gap: 5px;
+        background-color: #eeeeee;
+
+        &:hover {
+            background-color: #ccc;
+        }
+    }
+}
+
+img {
+    width: 100%;
+}
+
+.manage-user-container {
+    margin: 10px;
+
+    .users-content {
+        margin: 10px 0;
+
+        .add-new-user {
+
+            .btn-add-user {
+                border: none;
+                border-radius: 5px;
+                padding: 5px;
+
+                &:hover {
+                    background-color: #eeeeee;
+                }
+            }
+        }
+    }
+}
